@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0sp" android:typeface="monospace" android:textStyle="bold" android:gravity="center" android:id="@id/htv1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:typeface="monospace" android:gravity="left" android:id="@id/htv2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:typeface="monospace" android:gravity="left" android:id="@id/htv3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:typeface="monospace" android:gravity="left" android:id="@id/htv4" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:typeface="monospace" android:gravity="left" android:id="@id/htv5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:typeface="monospace" android:gravity="left" android:id="@id/htv6" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:typeface="monospace" android:gravity="left" android:id="@id/htv7" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:typeface="monospace" android:gravity="left" android:id="@id/htv8" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:typeface="monospace" android:gravity="left" android:id="@id/htv9" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@id/htv10" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

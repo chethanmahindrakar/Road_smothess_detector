@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Select the sensor rate (will be valid for all active sensors)." android:singleLine="false" />
+    <RadioGroup android:id="@id/SRSradioGroup1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RadioButton android:id="@id/SRSradio0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="SENSOR_DELAY_FASTEST" />
+        <RadioButton android:id="@id/SRSradio1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SENSOR_DELAY_GAME" />
+        <RadioButton android:id="@id/SRSradio2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SENSOR_DELAY_UI" />
+        <RadioButton android:id="@id/SRSradio3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SENSOR_DELAY_NORMAL" />
+    </RadioGroup>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/SRSbutton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Discard" />
+        <Button android:id="@id/SRSbutton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save and Return" />
+    </LinearLayout>
+</LinearLayout>

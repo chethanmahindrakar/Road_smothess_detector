@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:text="Select a Sensor" style="@style/title_style"/>
+    <Spinner android:id="@+id/SIspinner1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:text="Sensor Information" style="@style/title_style"/>
+    <TableLayout android:layout_width="match_parent" android:layout_height="match_parent" android:stretchColumns="1">
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Name : "/>
+            <TextView android:id="@+id/SIName" android:width="0dp" android:scrollHorizontally="false" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="MaximumRange : "/>
+            <TextView android:id="@+id/SIMaximumRange" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="MinDelay : "/>
+            <TextView android:id="@+id/SIMinDelay" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Power : "/>
+            <TextView android:id="@+id/SIPower" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Resolution : "/>
+            <TextView android:id="@+id/SIResolution" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Type : "/>
+            <TextView android:id="@+id/SIType" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Vendor : "/>
+            <TextView android:id="@+id/SIVendor" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Version : "/>
+            <TextView android:id="@+id/SIVersion" android:singleLine="false"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

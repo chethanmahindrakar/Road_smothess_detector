@@ -1,0 +1,25 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: RoadSmoothnessDetector.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- jpg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '10'
+  targetSdkVersion: '10'
+sharedLibrary: false
+sparseResources: true
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.4
+versionInfo:
+  versionCode: '2'
+  versionName: '1.1'

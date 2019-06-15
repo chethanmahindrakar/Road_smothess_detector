@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/LoadFileFromLocalButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="Load File from local" />
+    <Button android:id="@id/uploadButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="Click To Upload File" />
+    <Button android:id="@id/button_selectpic" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="View on Google Maps" />
+    <TextView android:textStyle="bold" android:textColor="#ff000000" android:id="@id/messageText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+</LinearLayout>

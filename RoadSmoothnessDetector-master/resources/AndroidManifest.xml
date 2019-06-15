@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2" android:versionName="1.1" package="cecar.littleflower" platformBuildVersionCode="10" platformBuildVersionName="2.3.3">
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="10"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.barometer" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.compass" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.gyroscope" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.light" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.proximity" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:label="Road Smoothness Detector" android:icon="@drawable/licon" android:debuggable="true">
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name="cecar.littleflower.main"/>
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name="cecar.littleflower.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="cecar.littleflower.SensorInfo"/>
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="cecar.littleflower.SensorMonitor" android:screenOrientation="portrait"/>
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="cecar.littleflower.SensorRateSelect" android:screenOrientation="portrait"/>
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="cecar.littleflower.SensorSelect" android:screenOrientation="portrait"/>
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="cecar.littleflower.LocInfo"/>
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="cecar.littleflower.LocMonitor" android:screenOrientation="portrait"/>
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="cecar.littleflower.LocProvRate" android:screenOrientation="portrait"/>
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="cecar.littleflower.SatMonitor" android:screenOrientation="landscape"/>
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="cecar.littleflower.DatLog" android:screenOrientation="portrait"/>
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="cecar.littleflower.WebViewActivity"/>
+        <activity android:name="cecar.littleflower.HelpActivity" android:screenOrientation="portrait"/>
+        <activity android:name="cecar.littleflower.About"/>
+        <activity android:label="@string/app_name" android:name="cecar.littleflower.MainActivity"/>
+    </application>
+</manifest>

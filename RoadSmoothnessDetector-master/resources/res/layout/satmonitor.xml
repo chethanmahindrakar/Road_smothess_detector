@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <cecar.littleflower.CLogView android:id="@+id/SaMtv1" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Shows the GPS Engine Status
+
+" android:lines="2"/>
+    <TextView android:id="@+id/SatStat" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TableLayout android:id="@+id/SatTable1" android:layout_width="match_parent" android:layout_height="wrap_content" android:stretchColumns="1,3,5,7">
+            <TableRow android:gravity="left" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:text="Lat. :"/>
+                <TextView android:id="@+id/SatLat"/>
+                <TextView android:text="Lon. :"/>
+                <TextView android:id="@+id/SatLon"/>
+                <TextView android:text="Alt. :"/>
+                <TextView android:id="@+id/SatAlt"/>
+                <TextView android:text="#Sat :"/>
+                <TextView android:id="@+id/SatSatn"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <TableLayout android:id="@+id/SatTable1" android:layout_width="match_parent" android:layout_height="wrap_content" android:stretchColumns="*">
+            <TableRow android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:text="Sat.PRN"/>
+                <TextView android:text="Azimuth"/>
+                <TextView android:text="Elevation"/>
+                <TextView android:text="SNR"/>
+                <TextView android:text="Alm."/>
+                <TextView android:text="Eph."/>
+                <TextView android:text="Fix"/>
+            </TableRow>
+            <TableRow android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="#ff0000" android:id="@+id/SatPr"/>
+                <TextView android:textColor="#ff0000" android:id="@+id/SatAz"/>
+                <TextView android:textColor="#ff0000" android:id="@+id/SatEl"/>
+                <TextView android:textColor="#ff0000" android:id="@+id/SatSn"/>
+                <TextView android:textColor="#ff0000" android:id="@+id/SatAl"/>
+                <TextView android:textColor="#ff0000" android:id="@+id/SatEp"/>
+                <TextView android:textColor="#ff0000" android:id="@+id/SatFx"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

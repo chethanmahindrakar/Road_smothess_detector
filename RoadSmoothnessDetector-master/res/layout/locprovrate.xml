@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="To get all data use '0'" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Minimum Distance (m)" />
+        <EditText android:id="@id/LPRet1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="EditText" inputType="number" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Minimum Time (miliseconds)" />
+        <EditText android:id="@id/LPRet2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="EditText" inputType="number" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/LPRbut1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save" />
+        <Button android:id="@id/LPRbut2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Discard" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:text="Debug Screen" style="@style/title_style"/>
+    <cecar.littleflower.CLogView android:id="@+id/LMMltv" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Use menu to select the location provider and the criterion." android:lines="4"/>
+    <TextView android:id="@+id/LMMName" android:text="Location Provider" style="@style/title_style"/>
+    <TableLayout android:layout_width="match_parent" android:layout_height="match_parent" android:stretchColumns="1">
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Accuracy : "/>
+            <TextView android:id="@+id/LMMaccuracy" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Altitude : "/>
+            <TextView android:id="@+id/LMMaltitude" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Bearing : "/>
+            <TextView android:id="@+id/LMMbearing" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Latitude : "/>
+            <TextView android:id="@+id/LMMlatitude" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Longtitude : "/>
+            <TextView android:id="@+id/LMMlongtitude" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Speed : "/>
+            <TextView android:id="@+id/LMMspeed" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Time: "/>
+            <TextView android:id="@+id/LMMTime" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Extras: "/>
+            <TextView android:id="@+id/LMMextras" android:width="0dp" android:scrollHorizontally="false" android:singleLine="false"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

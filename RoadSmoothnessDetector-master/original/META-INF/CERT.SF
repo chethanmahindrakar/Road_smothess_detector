@@ -1,0 +1,86 @@
+Signature-Version: 1.0
+X-Android-APK-Signed: 2
+SHA1-Digest-Manifest: E1zw9ZiX/tDmAonzns4ppldaILo=
+Created-By: 1.0 (Android)
+
+Name: res/drawable-mdpi-v4/licon.png
+SHA1-Digest: gdCKWJL0G8AxJLgCg/y8oxsL+Tk=
+
+Name: AndroidManifest.xml
+SHA1-Digest: Jij0elSuCVq61Z5s2gf3TytQqDo=
+
+Name: res/layout/datlog_tab1.xml
+SHA1-Digest: y3vI4ursM6naIjLzj8/zFNEy9eI=
+
+Name: res/layout/satmonitor.xml
+SHA1-Digest: R4AaWl+QsmduktuaTDQO532lynY=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: Nq8q3HeTluE5JNCBpVvNy3BXtJI=
+
+Name: res/layout/help.xml
+SHA1-Digest: LAjL1P5Vabn88XKHZDvYbp4mP+Y=
+
+Name: res/layout/locinfo.xml
+SHA1-Digest: 9L/Ura5wm5+URu3vyeleO+h6Tq0=
+
+Name: res/menu/locmonitormenu.xml
+SHA1-Digest: qn0Y2eA69w1DFa2xIWHVJ1KxKt4=
+
+Name: res/layout/sensorselect.xml
+SHA1-Digest: C/4YwTbY0GqrBon7umst4srV80U=
+
+Name: res/drawable-hdpi-v4/splash2.jpg
+SHA1-Digest: O7V8XcplzOgYRSKvfZ2JEhrTKzY=
+
+Name: res/layout/about.xml
+SHA1-Digest: MxturqHhpe3wCWXyEm82kWDuBOg=
+
+Name: res/layout/locmonitor.xml
+SHA1-Digest: U98aZCeMp2NezNm982EZVRHOaFE=
+
+Name: res/layout/locprovrate.xml
+SHA1-Digest: JWvl27Xc6HFgAkausKpyx5apb34=
+
+Name: res/layout/datlog.xml
+SHA1-Digest: q8KYv2YKpWYgIA/lWViQZTDQ3MY=
+
+Name: res/layout/main.xml
+SHA1-Digest: v6Idg2ThnyJdZrJXvCKKEe9rZ4o=
+
+Name: res/layout/upload.xml
+SHA1-Digest: 4iuaLnerRKfWXhpfntFwQjHtD+Y=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: bviZuMbvftsFY6nfiFOb9G1NpR8=
+
+Name: res/layout/datlog_tab4.xml
+SHA1-Digest: 04Oc09DCPlMbn13fTFNnnP0G43k=
+
+Name: res/drawable-ldpi-v4/licon.png
+SHA1-Digest: gdCKWJL0G8AxJLgCg/y8oxsL+Tk=
+
+Name: res/layout/sensormonitor.xml
+SHA1-Digest: NY58d93wJWfe8GH9kJJZQtn/sbg=
+
+Name: res/layout/activity_splash.xml
+SHA1-Digest: uKxSPGTvm7uoJMtvkW3vNKJ7XkE=
+
+Name: resources.arsc
+SHA1-Digest: 6Ovx9tBq+0DsEQego5DB70jmx1Y=
+
+Name: res/layout/sensorrateselect.xml
+SHA1-Digest: f1o1DIY3y37tch65l/iIW33TKXY=
+
+Name: res/menu/sensurmonitormenu.xml
+SHA1-Digest: U+QsNo3oUCuWV8QXN1QfALzopQc=
+
+Name: classes.dex
+SHA1-Digest: pRRDBc6qL75TZrMQRcVnsVsWRCY=
+
+Name: res/layout/sensorinfo.xml
+SHA1-Digest: WW3hNZkpdFy8mKilTkcKc1lVFeQ=
+
+Name: res/drawable-hdpi-v4/licon.png
+SHA1-Digest: gdCKWJL0G8AxJLgCg/y8oxsL+Tk=
+

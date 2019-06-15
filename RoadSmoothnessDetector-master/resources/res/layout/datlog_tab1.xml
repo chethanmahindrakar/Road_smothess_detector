@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/DLtab1" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/DLbtn0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6dp" android:text="Start Logging"/>
+        <Button android:id="@+id/DLbtn2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6dp" android:text="Stop Logging"/>
+        <Button android:id="@+id/DLbtn1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6dp" android:text="Upload"/>
+    </LinearLayout>
+    <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Console"/>
+    <TextView android:gravity="left" android:id="@+id/counterText1" android:visibility="gone" style="@style/title_style"/>
+    <TextView android:gravity="left" android:id="@+id/latText1" android:visibility="gone" style="@style/title_style"/>
+    <TextView android:gravity="left" android:id="@+id/langText1" android:visibility="gone" style="@style/title_style"/>
+    <TextView android:gravity="left" android:id="@+id/axText1" android:visibility="gone" style="@style/title_style"/>
+    <TextView android:gravity="left" android:id="@+id/ayText1" android:visibility="gone" style="@style/title_style"/>
+    <TextView android:gravity="left" android:id="@+id/azText1" android:visibility="gone" style="@style/title_style"/>
+    <SeekBar android:id="@+id/seekBar1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:max="40" android:progress="1" android:minHeight="35dp"/>
+    <TextView android:id="@+id/seekText" android:visibility="gone" style="@style/title_style"/>
+    <cecar.littleflower.CLogView android:id="@+id/DLtv1" android:background="#303030" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+    <LinearLayout android:gravity="right" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/DLbtn4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Show Selection"/>
+    </LinearLayout>
+</LinearLayout>

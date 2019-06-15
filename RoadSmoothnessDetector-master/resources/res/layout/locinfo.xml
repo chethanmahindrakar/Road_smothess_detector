@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:text="Select a Location Manager" style="@style/title_style"/>
+    <Spinner android:id="@+id/LMIspinner1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:text="Location Manager Information" style="@style/title_style"/>
+    <TableLayout android:layout_width="match_parent" android:layout_height="match_parent" android:stretchColumns="1">
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Name : "/>
+            <TextView android:id="@+id/LMIName" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Accuracy : "/>
+            <TextView android:id="@+id/LMIAccuracy" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Power Requirement : "/>
+            <TextView android:id="@+id/LMIReqPow" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Has Monetary Cost : "/>
+            <TextView android:id="@+id/LMIMoney" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Requires Cells : "/>
+            <TextView android:id="@+id/LMIReqCell" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Requires Network : "/>
+            <TextView android:id="@+id/LMIReqNetwork" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Require Satellites : "/>
+            <TextView android:id="@+id/LMIReqSatellite" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Supports Altitude : "/>
+            <TextView android:id="@+id/LMISupAltitude" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Supports Bearing : "/>
+            <TextView android:id="@+id/LMISupBearing" android:singleLine="false"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:text="Supports Speed : "/>
+            <TextView android:id="@+id/LMISupSpeed" android:singleLine="false"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
